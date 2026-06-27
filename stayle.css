@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0b1220;
+    color: white;
+}
+
+/* HEADER */
+.header {
+    text-align: center;
+    padding: 25px;
+    background: #111827;
+    border-bottom: 2px solid #22c55e;
+}
+
+.header h1 {
+    margin: 0;
+    color: #22c55e;
+    font-size: 26px;
+    letter-spacing: 2px;
+}
+
+.header p {
+    margin-top: 5px;
+    color: #94a3b8;
+}
+
+/* CONTAINER */
+.container {
+    max-width: 750px;
+    margin: auto;
+    padding: 15px;
+}
+
+/* BUTTON */
+a {
+    text-decoration: none;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 20px;
+    background: #22c55e;
+    color: white;
+    border-radius: 10px;
+    margin-top: 15px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #16a34a;
+    transform: scale(1.05);
+}
+
+/* CARD DESIGN */
+.card {
+    background: #111827;
+    margin: 15px 0;
+    padding: 18px;
+    border-radius: 14px;
+    border-left: 5px solid #22c55e;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card h3 {
+    margin: 0 0 10px 0;
+    color: #38bdf8;
+}
+
+/* TEXT COLORS */
+.pick {
+    color: #facc15;
+    font-weight: bold;
+}
+
+.odd {
+    color: #22c55e;
+}
+
+/* BADGES */
+.badge {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    background: #22c55e;
+}
+
+/* RISK COLORS */
+.medium {
+    background: #facc15;
+    color: black;
+}
+
+.low {
+    background: #ef4444;
+    color: white;
+}
+
+/* MOBILE */
+@media (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+
+    .card {
+        padding: 15px;
+    }
+
+    .header h1 {
+        font-size: 22px;
+    }
+}
